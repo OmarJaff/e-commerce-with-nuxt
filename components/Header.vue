@@ -31,13 +31,10 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Product</a>
-
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Features</a>
-
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Marketplace</a>
-
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Company</a>
+            <slot name="nav-item">
+              
+            </slot>
+    
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
           <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
