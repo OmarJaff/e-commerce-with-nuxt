@@ -14,7 +14,6 @@
                 Our Products
                 <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
               </NuxtLink>
-             
             </div>
           </div>
           <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
