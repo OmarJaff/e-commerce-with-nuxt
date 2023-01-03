@@ -133,6 +133,20 @@
     <div class="mt-12 border-t border-gray-200 pt-8">
       <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Your Company, Inc. All rights reserved.</p>
     </div>
+  
+  <button @click="showAlert">Hello world</button>
+ 
   </div>
 </footer>
 </template>
+
+<script>
+export default {
+  methods: {
+    showAlert() {
+      // Use sweetalert2
+      this.$swal('Hello Vue world!!!');
+    },
+  },
+};
+</script>
