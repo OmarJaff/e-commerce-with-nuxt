@@ -30,5 +30,6 @@
         </div>
       </div>
     </div>
+    <NewsLetter></NewsLetter>
   </main>
 </template>
