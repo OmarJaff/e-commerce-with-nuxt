@@ -37,9 +37,12 @@
     
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
+           <ShoppingCart></ShoppingCart>
         </div>
       </nav>
+
+
+
       <!-- Mobile menu, show/hide based on menu open state. -->
       <div role="dialog" aria-modal="true">
         <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
@@ -72,8 +75,10 @@
                 <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
               </div>
               <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log in</a>
-              </div>
+
+                <ShoppingCart></ShoppingCart>
+
+               </div>
             </div>
           </div>
         </div>
