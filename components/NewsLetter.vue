@@ -25,6 +25,23 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
+ 
+    let email = '';
+
+    async function subscribe(e:any) {
+
+        e.preventDefault();
+        
+        this.$swal({
+            title: 'Successful!',
+            text: 'Thanks for Subscribing',
+            icon: 'success',
+            button: 'Ok',
+        })
+        await this.$strapi.$subscribers.create({Email: email})
+        
+        email = '';
+    }
 
 </script>
